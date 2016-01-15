@@ -1,0 +1,64 @@
+<ion-view>
+	<ion-nav-buttons side="right">
+		<button class="button button-icon" ng-click="chooseLocation()">
+			<span class="icon ion-loop"></span>
+		</button>
+	</ion-nav-buttons>
+	<ion-content>
+		<div class="row">
+			<div class="col col-center">
+				<h3 class="centered">How about..</h3>
+				<h1 class="centered"><strong>{{venueName}}</strong></h1>
+			</div>
+		</div>
+		<div id="map" data-tap-disabled="true"></div>
+		<div class="row">
+			<div class="col col-33">
+				<p>Category: </p>
+			</div>
+			<div class="col col-67">
+				<p>{{venueCategory}}</P>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col col-33">
+				<p>Price: </p>
+			</div>
+			<div class="col col-67">
+				<p>{{venuePrice}}</P>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col col-33">
+				<p>Rating: </p>
+			</div>
+			<div class="col col-67">
+				<p>{{venueRating}}</P>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col col-33">
+				<p>Customer Tip: </p>
+			</div>
+			<div class="col col-67">
+				<p>{{venueTip}}</P>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col col-33">
+				<p>Contact: </p>
+			</div>
+			<div class="col col-67">
+				<p>{{venueContact}}</P>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col col-33">
+				<p>Website: </p>
+			</div>
+			<div class="col col-67">
+				<p>{{venueUrl}}</P>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>

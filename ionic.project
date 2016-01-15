@@ -1,0 +1,12 @@
+{
+  "name": "PinPoint-2",
+  "app_id": "50db3e36",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}

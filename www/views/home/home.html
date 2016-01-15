@@ -1,0 +1,22 @@
+<ion-view view-title="PinPoint" hide-back-button="true">
+	<ion-content>
+		<ion-item class="item-divider" style="padding-top: 10%;">What do you need help in picking?</ion-item>
+		<div class="item item-input-inset">
+			<label class="item-input-wrapper">
+				<input type="search" ng-model="settings.query" style="width: 100%;">
+				<a ng-if="settings.query != ''" on-touch="settings.query=''"><i class="icon ion-ios-close placeholder-icon"></i>
+				</a>
+			</label>
+		</div>
+		<ion-item class="item-divider" style="padding-top: 10%;">How much do you want to spend?</ion-item>
+		<div class="button-bar" style="padding-bottom: 10%;">
+			<a class="button" ng-class="{'button-royal': isActive('1')}" ng-click="setActive('1')">$</a>
+			<a class="button" ng-class="{'button-royal': isActive('2')}" ng-click="setActive('2')">$$</a>
+			<a class="button" ng-class="{'button-royal': isActive('3')}" ng-click="setActive('3')">$$$</a><!--
+			<a class="button" ng-class="{'button-royal': isActive('4')}" ng-click="setActive('4')">$$$$</a>-->
+		</div>
+		<button class="button button-block button-calm" ui-sref="map" >
+			Pick a place for me!
+		</button>
+	</ion-content>
+</ion-view>
