@@ -1,25 +1,24 @@
-Ionic App Base
+PinPoint
 =====================
 
-A starting project for Ionic that optionally supports using custom SCSS.
+A simple project for Ionic using Foursquare API and Google Maps JS API. This app was created for the 
+indecisive people or couples or groups who can't figure out where they want to go. Instead of constantly 
+saying "I don't care where we eat!" or "I don't care where we go as long as we choose something!", PinPoint 
+picks a spot for you. It then displays a route where the venue is within walking distance.
 
-## Using this project
+## Demo
 
-We recommend using the [Ionic CLI](https://github.com/driftyco/ionic-cli) to create new Ionic projects that are based on this project but use a ready-made starter template.
-
-For example, to start a new Ionic project with the default tabs interface, make sure the `ionic` utility is installed:
-
-```bash
-$ npm install -g ionic
-```
-
-Then run:
+##Installation
 
 ```bash
-$ ionic start myProject tabs
+$ ionic start PinPoint https://github.com/echu10/PinPoint
+$ cd PinPoint
+$ cordova plugin add cordova-plugin-geolocation
+$ brew install ngCordova
+$ ionic platform add ios
+$ ionic plagform add android
+$ ionic serve
 ```
-
-More info on this can be found on the Ionic [Getting Started](http://ionicframework.com/getting-started) page and the [Ionic CLI](https://github.com/driftyco/ionic-cli) repo.
 
 ## Issues
 Issues have been disabled on this repo, if you do find an issue or have a question consider posting it on the [Ionic Forum](http://forum.ionicframework.com/).  Or else if there is truly an error, follow our guidelines for [submitting an issue](http://ionicframework.com/submit-issue/) to the main Ionic repository.
