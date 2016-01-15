@@ -117,23 +117,6 @@ angular.module('starter')
 		})
 
 	}
-/*
-	function addMarker(location, message) {
-		marker = new google.maps.Marker({
-			position: location,
-			animation: google.maps.Animation.DROP,
-			map: map
-		});
-
-		infoWindow = new google.maps.InfoWindow({
-			content: message
-		});
-
-		google.maps.event.addListener(marker, 'click', function () {
-			infoWindow.open(map, marker);
-		});
-	}
-*/
 
 
 	return {
