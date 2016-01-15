@@ -2,8 +2,8 @@ angular.module('starter')
 
 .factory('Foursquare', ['$http', function ($http) {
 	var apiUrl 			= 'https://api.foursquare.com/v2/';
-	var CLIENT_ID 		= 'ID';
-	var CLIENT_SECRET 	= 'SECRET';
+	var CLIENT_ID 		= 'NEW ID';
+	var CLIENT_SECRET 	= 'NEW SECRET';
 	var v 				= '20160108';
 
 	return {
