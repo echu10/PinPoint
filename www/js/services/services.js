@@ -30,7 +30,6 @@ angular.module('starter')
 			});
 		}
 	}
-
 	/*
 	function whereAt(lat, lng, limit, query) {
 		return  $http.get(apiUrl + 'venues/trending?ll=' + lat + ',' + lng 
