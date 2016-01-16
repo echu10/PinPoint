@@ -7,6 +7,7 @@ saying "I don't care where we eat!" or "I don't care where we go as long as we c
 picks a spot for you. It then displays a route where the venue is within walking distance.
 
 ## Demo
+![Demo](https://cloud.githubusercontent.com/assets/3778713/12370768/9f3c3d80-bbd2-11e5-980e-d4db434d7912.gif)
 
 ##Installation
 
