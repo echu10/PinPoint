@@ -7,3 +7,5 @@ plugins/
 resources/
 .editorconfig
 .io-config.json
+*.keystore
+*.sw*
