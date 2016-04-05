@@ -34,6 +34,10 @@ angular.module('starter')
 				$scope.venueCategory = data['response']['groups'][0]['items'][num]['venue']['categories'][0]['shortName'];
 				$scope.venueTip = "\"" + data['response']['groups'][0]['items'][num]['tips'][0]['text'] + "\"";
 				$scope.venueUrl = data['response']['groups'][0]['items'][num]['venue']['url'];
+				$scope.venueAddress = data['response']['groups'][0]['items'][num]['venue']['location']['address'] + " " + 
+										data['response']['groups'][0]['items'][num]['venue']['location']['city'] + " " + 
+										data['response']['groups'][0]['items'][num]['venue']['location']['state'] + " " +
+										data['response']['groups'][0]['items'][num]['venue']['location']['postalCode'];
 				GoogleMaps.init(myLat, myLng, venueLat, venueLng);
 				//var location = new google.maps.LatLng(venueLat, venueLng);
 				//GoogleMaps.addNewMarker(location, venueName);
